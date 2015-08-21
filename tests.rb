@@ -3,6 +3,7 @@ require "test/unit"
 
 class TestBinarySearchTree < Test::Unit::TestCase
   def test_find
-    assert_equal(true, BinarySearchTree.new().find)
+    tree = BinarySearchTree.new
+    assert_equal(nil, tree.find)
   end
 end
